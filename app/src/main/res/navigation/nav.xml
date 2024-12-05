@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/sum">
+
+    <fragment
+        android:id="@+id/sum"
+        android:name="com.example.sum.Sum"
+        android:label="fragment_sum"
+        tools:layout="@layout/fragment_sum" />
+    <fragment
+        android:id="@+id/result"
+        android:name="com.example.sum.Result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/score"
+        android:name="com.example.sum.Score"
+        android:label="fragment_score"
+        tools:layout="@layout/fragment_score" />
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sum"
+        android:icon="@drawable/add"
+        android:title="Sum" />
+    <item
+        android:id="@+id/result"
+        android:icon="@drawable/add_check"
+        android:title="Result" />
+    <item
+        android:id="@+id/score"
+        android:icon="@drawable/history"
+        android:title="Score" />
+</menu>
